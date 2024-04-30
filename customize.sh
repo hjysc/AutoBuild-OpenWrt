@@ -14,4 +14,4 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' openwrt/package/lean/default-se
 #3. Replace with JerryKuKu’s Argon
 #rm openwrt/package/lean/luci-theme-argon -rf
 
-sed -i 's/bootstrap/argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i 's/bootstrap/argon/g' openwrt/feeds/luci/collections/luci/Makefile
